@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management System</h1>
+        <label for="employeeName">Employee Name:</label>
+        <input type="text" id="employeeName" name="employeeName" placeholder="Employee Name">
+        <label for="employeeId">Employee ID:</label>
+        <input type="text" id="employeeId" name="employeeId" placeholder="Employee ID">
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary" placeholder="Salary">
+        <label for="Department">Department:</label>
+        <input type="text" id="Department" name="Department" placeholder="Department">
+        <br>
+        <button onclick="addEmployee()" id="addEmployee">Add Employee</button>
+        <button onclick="displayAll()" id="displayAll">Display All</button>
+        <button onclick="salary50000()" id="salary50000">Salary > 50000</button>
+        <button onclick="TotalSalary()" id="TotalSalary">Total Salary</button>
+        <button onclick="averageSalary()" id="averageSalary">Average Salary</button>
+        <button onclick="Countbydept()" id="Countbydept">Count by Department</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
